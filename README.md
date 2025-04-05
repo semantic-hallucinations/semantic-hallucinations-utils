@@ -2,7 +2,7 @@
 Python package with basic utils
 
 ### Intallation using pip 
-```
+```bash
 pip install git+https://github.com/semantic-hallucinations/semantic-hallucinations-utils.git
 ```
 
@@ -12,7 +12,7 @@ organisation_utils @ git+https://github.com/semantic-hallucinations/semantic-hal
 ```
 
 ### Using logger
-```
+```python
 from organisation_utils.logging_config import logger_factory
 
 logger = logger_factory.get_logger("logger_name")
